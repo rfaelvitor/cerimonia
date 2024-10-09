@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  #1382a7;
+    background-color:  #b9b9b9;
 }
 
 
@@ -26,14 +27,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .list {
     font-size: 2rem;
     color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
     display: flex;
-    margin-top: 5%;
+    margin-top: 3%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -41,6 +42,26 @@ img {
    
 }
 
+.list > p {
+    text-decoration: underline;
+}
+
+.list > ol {
+    margin-bottom: 5%;
+}
+
 img:hover {
     cursor: pointer;
+}
+
+.conteiner > p {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.conteiner > p:last-of-type {
+    margin-bottom: 5%;
+    font-style: italic;
 }
