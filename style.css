@@ -65,3 +65,10 @@ img:hover {
     margin-bottom: 5%;
     font-style: italic;
 }
+
+.images {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
